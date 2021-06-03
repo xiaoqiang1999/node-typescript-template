@@ -1,0 +1,33 @@
+{
+	"name": "typescript-demo-babel",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon --exec ts-node --require tsconfig-paths/register ./src/index.ts",
+		"build": "node build.js",
+		"start": "node build.js && node ./dist/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/runtime": "^7.10.5",
+		"core-js": "^3.6.5",
+		"tslib": "^2.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.10.5",
+		"@babel/plugin-transform-runtime": "^7.10.5",
+		"@babel/preset-env": "^7.10.4",
+		"@babel/preset-typescript": "^7.10.4",
+		"@types/node": "^14.0.24",
+		"babel-plugin-module-resolver": "^4.0.0",
+		"nodemon": "^2.0.4",
+		"shelljs": "^0.8.4",
+		"ts-node": "^8.10.2",
+		"tsconfig-paths": "^3.9.0",
+		"typescript": "^3.9.7"
+	}
+}
