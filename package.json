@@ -23,9 +23,15 @@
 		"@babel/preset-env": "^7.10.4",
 		"@babel/preset-typescript": "^7.10.4",
 		"@types/node": "^14.0.24",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
 		"babel-plugin-module-resolver": "^4.0.0",
+		"eslint": "^7.27.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
 		"lint-staged": "^11.0.0",
 		"nodemon": "^2.0.4",
+		"prettier": "^2.3.0",
 		"shelljs": "^0.8.4",
 		"simple-git-hooks": "^2.4.1",
 		"ts-node": "^8.10.2",
@@ -33,6 +39,11 @@
 		"typescript": "^3.9.7"
 	},
 	"simple-git-hooks": {
-		"pre-commit": "npm run test"
+		"pre-commit": "npx lint-staged"
+	},
+	"lint-staged": {
+		"src/**/*.{ts,js}": [
+			"eslint --fix --ext .ts,.js src/"
+		]
 	}
 }
