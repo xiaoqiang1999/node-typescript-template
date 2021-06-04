@@ -14,8 +14,8 @@ import { add } from '@/utils';
 http
 	.createServer((req, res) => {
 		res.end('hello world\n1 + 2 = ' + add(1, 2));
-		let i = [1];
-		i.forEach(() => {
+		let n = [1];
+		n.forEach(() => {
 			console.log(1);
 		});
 	})
