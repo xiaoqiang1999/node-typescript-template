@@ -12,9 +12,9 @@
 		[
 			"module-resolver",
 			{
-				"root": ["./dist"],
+				"root": ["./build"],
 				"alias": {
-					"@": "./dist"
+					"@": "./build"
 					// "underscore": "lodash"
 				}
 			}
