@@ -40,7 +40,7 @@
 				"exclude": [] /* 强制不启用的 plugins */,
 				"forceAllTransforms": false /* default: false 强制使用所有的plugins，用于只能支持ES5的uglify可以正确压缩代码 */
 			}
-		],
-		"@babel/preset-typescript"
+		]
+		// "@babel/preset-typescript"
 	]
 }
