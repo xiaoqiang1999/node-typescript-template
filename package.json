@@ -43,8 +43,11 @@
 	},
 	"lint-staged": {
 		"src/**/*.{ts,js}": [
-			"eslint ./src/ --fix --ext .ts,.js"
+			"eslint ./src/ --fix --ext .ts,.js,.json"
 		]
 	},
-	"eslintIgnore": ["node_modules", "build"]
+	"eslintIgnore": [
+		"node_modules",
+		"build"
+	]
 }

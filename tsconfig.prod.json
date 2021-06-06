@@ -1,4 +1,9 @@
 {
+	// 包含
+	"include": ["./src/**/*"],
+	// 排除 include配置中包含的源文件 只对include中包含文件起到排除的作用
+	"exclude": [],
+	// 编译选项
 	"compilerOptions": {
 		"pretty": true /* 给错误和消息设置样式，使用颜色和上下文 */,
 		/* Visit https://aka.ms/tsconfig.json to read more about this file */
@@ -69,9 +74,5 @@
 		/* Advanced Options */
 		"skipLibCheck": true /* Skip type checking of declaration files. */,
 		"forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
-	},
-	"include": ["./src/**/*"],
-	"exclude": [
-		// "static"
-	]
+	}
 }
