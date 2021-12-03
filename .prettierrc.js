@@ -1,3 +1,6 @@
+/**
+ * prettier 代码格式化配置
+ */
 module.exports = {
 	useTabs: true, // 缩进使用 tab
 	tabWidth: 2, // tab缩进大小 默认为2

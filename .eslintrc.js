@@ -1,3 +1,6 @@
+/**
+ * 配置 ESLint 使用 prettier的和规则
+ */
 module.exports = {
 	root: true,
 	// 定义ESLint的解析器
