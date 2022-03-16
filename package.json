@@ -2,13 +2,12 @@
 	"name": "node-typescript-template",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "build/index.js",
 	"scripts": {
 		"prepare": "npx simple-git-hooks",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "nodemon --exec ts-node --require tsconfig-paths/register ./src/index.ts",
-		"build": "node build.js",
-		"start": "node build.js && node ./build/index.js"
+		"build": "node build.js"
 	},
 	"author": "",
 	"license": "ISC",
