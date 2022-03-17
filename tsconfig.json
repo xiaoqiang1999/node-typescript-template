@@ -2,7 +2,7 @@
 {
 	"extends": "./tsconfig.prod.json",
 	"compilerOptions": {
-		"target": "ES2020",
+		"target": "ES2020", // node直接执行的js版本
 		"removeComments": false // 不删除注释 提高编译速度
 	}
 }
