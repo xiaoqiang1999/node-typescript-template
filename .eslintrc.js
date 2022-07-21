@@ -1,5 +1,6 @@
+/** 配置 ESLint 使用 prettier的和规则 */
 /**
- * 配置 ESLint 使用 prettier的和规则
+ * @type {import('eslint').Linter.BaseConfig}
  */
 module.exports = {
 	root: true,
